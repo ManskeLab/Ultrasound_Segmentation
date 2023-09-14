@@ -41,7 +41,7 @@ def main():
     parser.add_argument("frames_path", type=str, help="Path to directory containing each individual \
                         frame in an acceptable image format (jpeg, jpg, png, tif, dcm , nii, mha, aim).")
     parser.add_argument("output_path", type=str, help="Path and file name to store output in. \
-                        Acceptable formats are (nii, mha)")
+                        Acceptable formats are (nii, mha).")
 
     args = parser.parse_args()
     frames_path = args.frames_path
